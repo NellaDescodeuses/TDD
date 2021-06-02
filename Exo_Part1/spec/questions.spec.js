@@ -48,8 +48,8 @@ describe('Les chaines de caractères : ', function () {//on décrit la fonctionn
     });
 
     it('Afficher l\'extension du fichier', function () {
-      var extension = showExtension('index.html');
-      expect(extension).toContain('html')
+      var extension = typeOfExtension('index.html');
+      expect(extension).toEqual('html')
     });
 
     it('Compter le nombre d\'espace dans la chaine', function () {

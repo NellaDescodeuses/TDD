@@ -46,13 +46,12 @@ var trueOrFalse = function (text) {
     return true;
 }
 
-var showExtension = (filename) => {
+var typeOfExtension = (filename) => {
     return filename.split('.').pop();
 }
 
 var howManySpace = (text) => {
     return text.split(' ').length - 1;
-
 }
 
 var reverseLetters = (text) => {
